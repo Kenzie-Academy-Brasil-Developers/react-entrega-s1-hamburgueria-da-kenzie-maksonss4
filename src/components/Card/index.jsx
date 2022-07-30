@@ -12,7 +12,7 @@ function Card ({burguer, itensCart, setItensCart}) {
 
         itensCart.length > 0 
         ?   (
-            validation  ? console.log("oi")                            
+            validation  ? console.log("Funcionalidade do + e -")                            
                         :   (
                             setItensCart([burguer, ...itensCart])
                             )
